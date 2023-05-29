@@ -32,3 +32,15 @@ elif number < 0:
     print("The number is negative")
 else:
     print("zero")
+
+
+# we can create an if statement within another if statement. This is called nested loops
+number = int(input("Enter a number: "))
+
+if number >= 0:
+    if number == 0:
+        print("Zero")
+    else:
+        print("Positive")
+else:
+    print('Negative')
