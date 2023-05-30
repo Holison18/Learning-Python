@@ -27,3 +27,30 @@ while isRun:
         break
 print(f"Total: {Total}")
 
+
+# in python we while loops can have an addition else block. This means that when the condition
+# Evaluates to false, the else block is run
+
+num2 = 0
+while num2 < 3:
+    print(num2)
+    num2 += 1
+else:
+    print('Loop has terminated')
+
+
+
+# The else block will not execute if the while loop is terminated by a break statement
+counter = 0
+
+while counter < 3:
+    '''Copied from programiz'''
+    # loop ends because of break
+    # the else part is not executed 
+    if counter == 1:
+        break
+
+    print('Inside loop')
+    counter = counter + 1
+else:
+    print('Inside else')
