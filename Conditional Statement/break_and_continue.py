@@ -21,3 +21,12 @@ while n >= 0:
 
 # The continue statement is used to skip the current iteration.
 # The flow of the program goes to the next iteration
+
+# for example we can write code to get all the even numbers in a range of a number
+value = int(input('Enter a value: '))
+
+for i in range(value):
+    if i % 2 == 0 and i != 0:
+        print(i)
+    else:
+        continue
